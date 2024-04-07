@@ -33,33 +33,33 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid()
         {
-            Assert.AreEqual(-1, Program.Subract("1", "2"));
+            Assert.AreEqual(-1, Program.Subtract("1", "2"));
             Assert.AreEqual(1, Program.Subtract("3", "2"));
-            Assert.AreEqual(-2, Program.Subract("5", "7"));
+            Assert.AreEqual(-2, Program.Subtract("5", "7"));
         }
         
         [Test]
         public void Multiply_Valid()
         {
-            Assert.AreEqual(2, Program.Subract("1", "2"));
-            Assert.AreEqual(6, Program.Subtract("3", "2"));
-            Assert.AreEqual(35, Program.Subract("5", "7"));
+            Assert.AreEqual(2, Program.Multiply("1", "2"));
+            Assert.AreEqual(6, Program.Multiply("3", "2"));
+            Assert.AreEqual(35, Program.Multiply("5", "7"));
         }
         
         [Test]
         public void Divide_Valid()
         {
-            Assert.AreEqual(1, Program.Subract("2", "2"));
-            Assert.AreEqual(2, Program.Subtract("4", "2"));
-            Assert.AreEqual(5, Program.Subract("35", "7"));
+            Assert.AreEqual(1, Program.Divide("2", "2"));
+            Assert.AreEqual(2, Program.Divide("4", "2"));
+            Assert.AreEqual(5, Program.Divide("35", "7"));
         }
 
         [Test]
         public void Power_Valid()
         {
-            Assert.AreEqual(4, Program.Subract("2", "2"));
-            Assert.AreEqual(16, Program.Subtract("4", "2"));
-            Assert.AreEqual(27, Program.Subract("3", "3"));
+            Assert.AreEqual(4, Program.Power("2", "2"));
+            Assert.AreEqual(16, Program.Power("4", "2"));
+            Assert.AreEqual(27, Program.Power("3", "3"));
         }
     }
 }
